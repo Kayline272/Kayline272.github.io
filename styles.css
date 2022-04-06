@@ -1,0 +1,38 @@
+@media (prefers-reduced-motion: no-preference) {
+     :root {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+section.section {
+    display: flex;
+    justify-content: center;
+}
+
+section.section .section-content {
+    width: 100%;
+    padding: 6rem 0;
+}
+
+@media (min-width: 768px) {
+    section.section {
+        min-height: 100vh;
+    }
+}
+
+@media (min-width: 992px) {
+    section.section {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
